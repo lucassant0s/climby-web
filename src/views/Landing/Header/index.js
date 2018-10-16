@@ -17,7 +17,7 @@ const Header = ({ }) => (
             <div className="row">
               <div className="col-6 collapse-brand">
                 <a href="../index.html">
-                  <img src="../../assets/img/brand/blue.png" />
+                  <img src="../../assets/img/theme/logo.png" />
                 </a>
               </div>
               <div className="col-6 collapse-close">
