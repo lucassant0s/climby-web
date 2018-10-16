@@ -45,7 +45,7 @@ const Header = ({ }) => (
               </a>
             </li>
             <li class="nav-item d-none d-lg-block ml-lg-4">
-              <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-success btn-icon">
+              <a href="" target="_blank" class="btn btn-success btn-icon">
                 <span class="btn-inner--icon">
                   <i class="fa fa-cloud-download mr-2"></i>
                 </span>
