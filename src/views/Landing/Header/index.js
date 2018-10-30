@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './index.css';
 
 const Header = ({ }) => (
   <header className="header-global">
     <nav id="navbar-main" className="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
-      <div className="container">
+      <div className="container" style={{ backgroundColor: 'rgb(30, 75, 95)' }}>
         <a className="navbar-brand mr-lg-5" href="../index.html">
           <img src="../../assets/img/theme/logo.png" />
         </a>
@@ -17,7 +18,7 @@ const Header = ({ }) => (
             <div className="row">
               <div className="col-6 collapse-brand">
                 <a href="../index.html">
-                  <img src="../../assets/img/theme/logo.png" />
+                  <img src="../../assets/img/theme/logo_invertida.png" />
                 </a>
               </div>
               <div className="col-6 collapse-close">
@@ -30,17 +31,17 @@ const Header = ({ }) => (
           </div>
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
             <li class="nav-item">
-              <a style={{ fontWeight: 'bold' }} class="nav-link nav-link-icon" href="">
+              <a style={{ fontWeight: 'bold', color: '#fff' }} class="nav-link nav-link-icon" href="">
                 O que é?
               </a>
             </li>
             <li class="nav-item">
-              <a style={{ fontWeight: 'bold' }} class="nav-link nav-link-icon" href="">
+              <a style={{ fontWeight: 'bold', color: '#fff' }} class="nav-link nav-link-icon" href="">
                 Blog
               </a>
             </li>
             <li class="nav-item">
-              <a style={{ fontWeight: 'bold' }} class="nav-link nav-link-icon" href="">
+              <a style={{ fontWeight: 'bold', color: '#fff' }} class="nav-link nav-link-icon" href="">
                 Fale conosco
               </a>
             </li>

@@ -1,0 +1,36 @@
+.cb-copyright {
+  text-align: center;
+}
+
+.footer.has-cards {
+  position: relative;
+  overflow: hidden;
+  margin-top: -420px;
+  padding-top: 500px;
+  pointer-events: none;
+  background: transparent;
+}
+
+.footer.has-cards:before {
+  position: absolute;
+  top: 600px;
+  right: 0;
+  left: 0;
+  height: 2000px;
+  content: '';
+  transform: skew(0, -8deg);
+  background: #fff;
+}
+
+.cb-icon-footer {
+  margin-right: 10%;
+  font-size: 75px;
+  color: #b2cd4b
+}
+
+.cb-link-footer {
+  text-decoration: underline;
+  color: #01838f;
+  font-weight: 400;
+  font-size: 1rem;
+}
