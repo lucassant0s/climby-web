@@ -24,9 +24,38 @@ const Card = ({ }) => (
           </div>
           <div className="col-md-8">
             <div className="card-block">
-              <h6 className="card-title">Card Title</h6>
+              <h6 className="display-4" style={{ marginBottom: '-1%' }}>Title</h6>
+              <span>Subtitle</span>
+              <br />
+              <br />
+              <div class="row">
+                <div class="col-sm-12">
+                  <span className="small">ÁREAS:</span>
+                </div>
+                <div class="col-sm-12">
+                  <span class="badge badge-radius badge-default" style={{ backgroundColor: '#fea728', color: '#FFF', marginRight: 10 }}>Default</span>
+                  <span class="badge badge-radius badge-default" style={{ backgroundColor: '#fea728', color: '#FFF', marginRight: 10 }}>Default</span>
+                  <span class="badge badge-radius badge-default" style={{ backgroundColor: '#d19843', color: '#FFF' }}>MAIS</span>
+                </div>
+              </div>
+              <br />
               <p className="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a href="https://www.google.com" className="btn btn-primary">read more...</a>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <button type="button" className="btn btn-primary">BUTTOM</button>
+                  </div>
+                  <div class="col-sm-3">
+                    <button type="button" className="btn btn-primary">BUTTOM</button>
+                  </div>
+                  <div class="col-sm-3">
+                    <button type="button" className="btn btn-primary">BUTTOM</button>
+                  </div>
+                  <div class="col-sm-2">
+                    <button type="button" className="btn btn-primary">BUTTOM</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
