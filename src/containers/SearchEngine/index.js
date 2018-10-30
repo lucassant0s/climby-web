@@ -6,6 +6,7 @@ import {
 } from '../../views/Landing'
 
 import {
+  Card,
   Filters,
   Sidebar
 } from '../../views/SearchEngine';
@@ -29,6 +30,7 @@ class SearchEngine extends Component {
               </div>
               <div class="col-sm-9">
                 <Filters />
+                <Card />
               </div>
             </div>
           </div>

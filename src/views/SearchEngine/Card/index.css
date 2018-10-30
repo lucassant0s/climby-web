@@ -1,0 +1,25 @@
+.cb-image-card-result {
+  margin-left: -2.1%;
+  margin-top: -2.1%;
+}
+
+.cb-card-play {
+  background-color: #1a3847;
+}
+
+.cb-card-session {
+  background-color: #4f9fee;
+}
+
+.cb-card-icon {
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.cb-btn-session {
+  margin-left: 5%;
+  border-radius: 25px !important;
+}
