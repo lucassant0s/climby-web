@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import './index.css';
-
-import SvgBlockquote from '../SvgBlockquote'
 
 const Content = ({ }) => (
   <div>
@@ -51,7 +50,9 @@ const Content = ({ }) => (
                     </div>
                   </div>
                   <div className="col-sm">
-                    <button type="button" className="btn btn-lg btn-block" style={{ backgroundColor: '#b2cd4b', color: '#FFF' }}>PROCURAR</button>
+                    <Link to="/search">
+                      <button type="button" className="btn btn-lg btn-block" style={{ backgroundColor: '#b2cd4b', color: '#FFF' }}>PROCURAR</button>
+                    </Link>
                   </div>
                 </div>
               </div>

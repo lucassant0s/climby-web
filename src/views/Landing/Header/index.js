@@ -1,14 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 const Header = ({ }) => (
   <header className="header-global">
     <nav id="navbar-main" className="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div className="container" style={{ backgroundColor: 'rgb(30, 75, 95)' }}>
-        <a className="navbar-brand mr-lg-5" href="../index.html">
-          <img src="../../assets/img/theme/logo.png" />
-        </a>
+        <Link to="/">
+          <a className="navbar-brand mr-lg-5" href="../index.html">
+            <img src="../../assets/img/theme/logo.png" />
+          </a>
+        </Link>
         <span style={{ color: '#FFF' }}>A sua plataforma de Coaching</span>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -17,9 +20,11 @@ const Header = ({ }) => (
           <div className="navbar-collapse-header">
             <div className="row">
               <div className="col-6 collapse-brand">
-                <a href="../index.html">
-                  <img src="../../assets/img/theme/logo_invertida.png" />
-                </a>
+                <Link to="/">
+                  <a href="../index.html">
+                    <img src="../../assets/img/theme/logo_invertida.png" />
+                  </a>
+                </Link>
               </div>
               <div className="col-6 collapse-close">
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,20 +1,25 @@
 import React, { Component } from 'react';
+import { Router, Route } from "react-router-dom";
+import createBrowserHistory from "history/createBrowserHistory";
 import './App.css';
-
 import {
-  Content,
-  Footer,
-  Header
-} from '../views/Landing';
+  LandingPage,
+  SearchEngine
+} from '../containers';
+
+const hit = createBrowserHistory();
 
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <Content />
-        <Footer />
+        <Router history={hit}>
+          <div>
+            <Route path="/" exact component={LandingPage} />
+            <Route path="/search" component={SearchEngine} />
+          </div>
+        </Router>
       </div>
     );
   }
