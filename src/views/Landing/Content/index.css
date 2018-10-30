@@ -116,3 +116,32 @@
   background-color: #01838f;
   box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
+
+.cb-session-find-coach {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://svgshare.com/i/970.svg),
+  url(https://lh3.googleusercontent.com/kQ8GxPU7XT0nBFjBc5vFeDwA4D3tqVO3VWOw1y-mKgr9maGuFGil_ykuUk2AUrycE5bM8e0IbIDykvI-32c=w1334-h812-rw);
+  background-repeat: no-repeat,
+      no-repeat,
+      no-repeat;
+      background-position: right,
+      left,
+      right;
+      background-size: 90%, 52%;
+}
+
+.cb-session-coach {
+  width: 100%;
+  height: 500px;
+  background-image: 
+  url(https://svgshare.com/i/96X.svg),
+  url(https://lh6.googleusercontent.com/1zEQfoBmw4V60i-5b8VZctjhgFNpAfomXw2SlVj3ZI4p35nWoTdwdkdmnHDbXgcwe7I50g__BSxR05X2IHw=w1334-h812-rw);
+  background-repeat: no-repeat,
+      no-repeat,
+      no-repeat;
+      background-position: left,
+      right,
+      right;
+      background-size: 90%, 51%;
+}

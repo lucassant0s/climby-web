@@ -53,7 +53,7 @@ const Content = ({ }) => (
                     <Link to="/search">
                       <button type="button" className="btn btn-lg btn-block" style={{ backgroundColor: '#b2cd4b', color: '#FFF' }}>PROCURAR</button>
                     </Link>
-                  </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -61,8 +61,8 @@ const Content = ({ }) => (
         </div>
       </div>
     </section>
-    <section className="section" style={{ backgroundColor: 'rgb(30, 75, 95)' }}>
-      <div className="container">
+    <section className="section cb-session-find-coach">
+      { /*<div className="container">
         <div className="row row-grid align-items-center">
           <div className="col-md-12">
             <div className="pl-md-5">
@@ -95,7 +95,7 @@ const Content = ({ }) => (
             </div>
           </div>
         </div>
-      </div>
+</div> */}
     </section>
     <section className="section section-lg">
       <div className="container">
@@ -138,8 +138,8 @@ const Content = ({ }) => (
         </div>
       </div>
     </section>
-    <section className="section" style={{ backgroundColor: 'rgb(24, 55, 70)' }}>
-      <div className="container">
+    <section className="section cb-session-coach">
+      {/*<div className="container">
         <div className="row row-grid align-items-center">
           <div className="col-md-12">
             <div className="pl-md-5">
@@ -172,7 +172,7 @@ const Content = ({ }) => (
             </div>
           </div>
         </div>
-      </div>
+</div>*/}
     </section>
     <section className="section section-lg cb-bg-blog">
       <div className="container">
